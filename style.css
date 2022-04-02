@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.header-fb{
+    background: #3b5998;
+    padding: 10px 0;
+}
+.header-fb::after{
+    clear: both;
+    content: '';
+    display: block;
+
+}
+.container{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    
+
+}
+.login{
+    width: 80%;
+    float: left;
+    margin-top: 20px;
+}
+.login form{
+    float: right;
+}
+.login label {
+    display: block;
+}
+.login input {
+    display: block;
+}
+.user-name {
+    float: left;
+}
+.password{
+    float: left;
+}
+.log-in{
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+    
+}
